@@ -18,7 +18,7 @@ namespace NganHang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormTrangDangNhap());
+            Application.Run(new TrangChinh());
         }
     }
 }

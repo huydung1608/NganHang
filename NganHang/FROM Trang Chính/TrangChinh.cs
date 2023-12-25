@@ -1,4 +1,5 @@
-﻿using NganHang.FROM_Trang_Chính;
+﻿using NganHang.Form_Trang_Chính;
+using NganHang.FROM_Trang_Chính;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,8 +29,8 @@ namespace NganHang
 
         private void picDatLichHen_Click(object sender, EventArgs e)
         {
-            
-
+            DatLichHen datLichHen = new DatLichHen();
+            datLichHen.ShowDialog();
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)

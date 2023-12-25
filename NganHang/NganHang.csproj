@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form Phụ\FormTrangDangNhap.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form Phụ của Trang Chính\ChiNhanhCuaDatLichHen.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form Phụ\FormTrangDangNhap.Designer.cs">
-      <DependentUpon>FormTrangDangNhap.cs</DependentUpon>
+    <Compile Include="Form Phụ của Trang Chính\ChiNhanhCuaDatLichHen.Designer.cs">
+      <DependentUpon>ChiNhanhCuaDatLichHen.cs</DependentUpon>
     </Compile>
     <Compile Include="Form Phụ\Reward.cs">
       <SubType>UserControl</SubType>
@@ -72,6 +72,78 @@
     </Compile>
     <Compile Include="Form Phụ\TienIch.Designer.cs">
       <DependentUpon>TienIch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\CaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\CaNhan.Designer.cs">
+      <DependentUpon>CaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\DatLichHen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\DatLichHen.Designer.cs">
+      <DependentUpon>DatLichHen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\GoiYSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\GoiYSanPham.Designer.cs">
+      <DependentUpon>GoiYSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\KhachHangUuTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\KhachHangUuTien.Designer.cs">
+      <DependentUpon>KhachHangUuTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\TinNoibat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\TinNoibat.Designer.cs">
+      <DependentUpon>TinNoibat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\TinTuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\TinTuc.Designer.cs">
+      <DependentUpon>TinTuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\ToChuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\ToChuc.Designer.cs">
+      <DependentUpon>ToChuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Trang Chính\TuyenDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Trang Chính\TuyenDung.Designer.cs">
+      <DependentUpon>TuyenDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormConnect.Designer.cs">
+      <DependentUpon>FormConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormMeNu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormMeNu.Designer.cs">
+      <DependentUpon>FormMeNu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormRewards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Từng Tính Năng\FormRewards.Designer.cs">
+      <DependentUpon>FormRewards.cs</DependentUpon>
     </Compile>
     <Compile Include="FROM Trang Chính\DangNhap.cs">
       <SubType>Form</SubType>
@@ -93,14 +165,50 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form Phụ\FormTrangDangNhap.resx">
-      <DependentUpon>FormTrangDangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="Form Phụ của Trang Chính\ChiNhanhCuaDatLichHen.resx">
+      <DependentUpon>ChiNhanhCuaDatLichHen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form Phụ\Reward.resx">
       <DependentUpon>Reward.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form Phụ\TienIch.resx">
       <DependentUpon>TienIch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\CaNhan.resx">
+      <DependentUpon>CaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\DatLichHen.resx">
+      <DependentUpon>DatLichHen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\GoiYSanPham.resx">
+      <DependentUpon>GoiYSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\KhachHangUuTien.resx">
+      <DependentUpon>KhachHangUuTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\TinNoibat.resx">
+      <DependentUpon>TinNoibat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\TinTuc.resx">
+      <DependentUpon>TinTuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\ToChuc.resx">
+      <DependentUpon>ToChuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Trang Chính\TuyenDung.resx">
+      <DependentUpon>TuyenDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Từng Tính Năng\FormConnect.resx">
+      <DependentUpon>FormConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Từng Tính Năng\FormMeNu.resx">
+      <DependentUpon>FormMeNu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Từng Tính Năng\FormRewards.resx">
+      <DependentUpon>FormRewards.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FROM Trang Chính\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
@@ -207,6 +315,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\phone-call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button-of-three-horizontal-lines1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secure-payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circular1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\commercial-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash-withdrawal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\give.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refund.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
